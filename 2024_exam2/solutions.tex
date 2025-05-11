@@ -1,0 +1,49 @@
+\documentclass{article}
+\pagenumbering{gobble}
+\usepackage[a3paper]{geometry}
+\usepackage{amsmath, amssymb, amscd, amsthm, amsfonts}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Question 1}
+
+Let $F_{i,j}$ denote the gravitational force body $i$ exerts on body $j$.
+
+Let $F_{centr} = M \omega^2 R = \frac{M \omega^2 a}{\sqrt{3}}$ denote the centripetal force on each of the three bodies.
+
+We have
+
+\begin{align}
+    F_{centr} &= F_{21}\cos(30^\circ) +  F_{31}\cos(30^\circ) \\
+    \frac{M \omega^2 a}{\sqrt{3}} &= 2 \frac{G M^2}{a^2} \frac{\sqrt{3}}{2} \\
+    \omega &= \sqrt{\frac{3GM}{a^3}}
+\end{align}
+
+\section*{Question 2}
+
+The previous question gives
+
+\begin{equation}
+    \omega^2 = \frac{3GM}{a^3} \implies a = \left(\frac{3GM}{\omega^2}\right)^{\frac{1}{3}}
+\end{equation}
+
+\section*{Question 3}
+
+When the metal bar is not submerged we measure a mass $m _1= M$.
+
+When the metal bar is completely submerged, we have a bouyance force $F_B = \rho_{\text{water}}Vg = M\frac{ \rho_{\text{water}}}{\rho_{\text{metal}}}g$.
+
+The traction on the rope is $T = Mg - F_B = Mg\left(1 - \frac{ \rho_{\text{water}}}{\rho_{\text{metal}}}\right)$
+
+So the mass measured here is $m_2 = M\left(1 - \frac{ \rho_{\text{water}}}{\rho_{\text{metal}}} \right)$.
+
+We have the closed interval $[m_2, m_1] = [4 \text{ kg}, 5 \text{ kg}]$.
+
+\section*{Question 4}
+
+We have the same problem as question 3, we just need to change the numerical values of the parameters.
+
+We have  $[m_2, m_1] = [4 \text{ kg}, 6 \text{ kg}]$
+
+\end{document}
